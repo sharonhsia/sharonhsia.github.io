@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Food Collection</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type='text/javascript' src="assets/js/script.js"></script>
+</head>
+<body>
+	<!--*intro page*/-->
+	<div class='shape'>
+         <div id= 'shape-1'></div>
+         <div id= 'shape-2'></div>
+         <div id= 'shape-3'></div>
+         <div id= 'shape-4'></div>
+    </div>
+	<div id='head-1'>Welcome to</div>
+	<div id='head-2'><em>My Food Collection</em>
+	</div>
+    <div class='img-1'>
+    	<div id='pic-1'><img id='img-1'src="assets/img/img-1.jpg"></div>
+	    <div id='pic-2'><img id='img-2'src="assets/img/img-2.jpg"></div>
+	    <div id='pic-3'><img id='img-3'src="assets/img/img-3.jpg"></div>
+	</div>
+		<div class='tabs'>
+
+		<div id='about'><b>About</b></div>
+		<div id='restaurants'><b>Restaurants</b></div>
+        <div id='homemade'><b>Homemade</b></div>
+        <div id='contact'><b>Contact</b></div>
+    </div>
+	<div class='img-2'>
+	    <div id='pic-4'><img id='img-4'src="assets/img/img-4.jpg"></div>
+	    <div id='pic-5'><img id='img-5'src="assets/img/img-5.jpg"></div>
+	    <div id='pic-6'><img id='img-6'src="assets/img/img-6.jpg"></div>
+    </div>
+
+
+
+
+    
+     <!--*about page*/-->
+    <div class='about'>
+    <div id='about-title'><h2>About</h2></div>
+    <div id='about-content'>
+    	<p>Welcome! My Name is Sharon, a sophomore studying Material Science at UC Berkeley! You know...studying is hard, but there's always something to motivate me....FOOD!</br> This website has two main sections: The first section is a collection of my favorite restaurants at Berkeley with some personal reviews, and the second section includes some of my personal recipes and things I like to make in my free time! (Yes, I like baking and cooking) </br> Hope you enjoy the website and feel free to contact me via social media provided in the last section if you have anything to share with me!</p>
+    	</div>
+    </div>
+
+     <!--*restaurant page*/-->
+    <div class='restaurant'>
+    <div id='restaurant-title'><h2>Restaurants</h2></div>
+    <div id='restaurant-filter'>
+    		<div class="filter active">Thai</div>
+			<div class="filter active">Japanese</div>
+			<div class="filter active">Brunch</div>
+    </div>
+    <div id='restaurant-content'>
+    <div id='row-1'>
+	    <div class='r Thai'id='r1'><img id='r1'src="assets/img/r1.jpg" onclick="openModal(this.id)" ></div>
+	    <div class='r Thai'id='r2'><img id='r2'src="assets/img/r2.jpg" onclick="openModal(this.id)"></div>
+	    <div class='r Brunch'id='r3'><img id='r3'src="assets/img/r3.jpg" onclick="openModal(this.id)"></div>
+	</div>
+	<div id='row-2'>
+	    <div class='r Brunch'id='r4'><img id='r4'src="assets/img/r4.jpg" onclick="openModal(this.id)"></div>
+	    <div class='r Brunch'id='r5'><img id='r5'src="assets/img/r5.jpg" onclick="openModal(this.id)"></div>
+	    <div class='r Japanese'id='r6'><img id='r6'src="assets/img/r6.jpg" onclick="openModal(this.id)"></div>
+    </div>
+    </div>
+    <!--Modal/-->
+    <div class='modal' id='modalr1' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r1' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Imm Thai</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f1.jpg">
+    		 <div class='description' id='1'>
+    		 	<h3>Address:</h3><p>2068 University Ave</br>Berkeley, CA 94704</br>Downtown Berkeley</p>
+    		 	<h3>Phone:</h3><p>(510) 898-1123</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/imm-thai-street-food-berkeley?osq=imm+thai</p>
+    		 	<h3>Review:</h3><p> Relatively cheap considering it's location in downtown Berkeley. It gets pretty crowded at peak hours. Seats are pretty closed together so probably not convenient for big groups. Decent dishes with a wide variety. Recommend dishes: Pad See Eew (as always),chicken wings and mango sticky rice. </p>
+    		 </div>
+    	     </div>
+        </div>
+    </div>
+    
+    <div class='modal' id='modalr2' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r2' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Thai Basil</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f2.jpg">
+    		 <div class='description' id='5'>
+    		 	<h3>Address:</h3><p>2519 Durant Ave</br>Ste G</br>Berkeley, CA 94704</br>b/t Bowditch St & Telegraph Ave </br>Telegraph Ave
+    		 	</p>
+    		 	<h3>Phone:</h3><p>(510) 548-6692</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/thai-basil-cuisine-berkeley</p>
+    		 	<h3>Review:</h3> <p> Located in the "Asian Ghetto" in Southside of Berkeley Campus.It's probably the cheapest Thai Cuisine in the area. IMPORTANT: THEY ONLY TAKE CASH!. No tips required. Good place for students to go (as we are all poor). They have seats inside but very limited; hence, not a good place for groups. Recommend dishes: Pad See Eew, mango sticky rice, yellow curry</p>
+    		 </div>
+    	     </div>
+         </div>
+     </div>
+
+    
+    <div class='modal' id='modalr3' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r3' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Berkeley Social Club</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f3.jpg">
+    		  <div class='description' id='5'>
+    		 	<h3>Address:</h3><p>2050 University Ave</br>Berkeley, CA 94704</br>b/t Milvia St & Shattuck Ave </br>Downtown Berkeley</p>
+    		 	<h3>Phone:</h3><p>(510) 900-5858</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/berkeley-social-club-berkeley?osq=Berkeley+Social</p>
+    		 	<h3>Review:</h3> <p> Located in Downtown Berkeley (close to the Northside). Price range is a bit high for students. Specialty in Korean-American fusion food. Interior is nice and as plenty of spaces- good for big groups and family dining. Dishes are pretty nice and large in portion. Recommend dishes: Fried Chicken w Waffles, Beef Soup with glass noodle.</p>
+    		 </div>
+    		</div>
+    	</div>
+    </div>
+   
+    <div class='modal' id='modalr4' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r4' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Maison Bleue</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f4.jpg">
+    		 <div class='description' id='5'>
+    		 	<h3>Address:</h3><p>2020 Kittredge St</br>Ste C</br>Berkeley, CA 94704</br>b/t Milvia St & Harold Way </br>Downtown Berkeley</p>
+    		 	<h3>Phone:</h3><p>(510) 900-1845</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/ma%C3%AEson-bleue-berkeley</p>
+    		 	<h3>Review:</h3> <p> Located in Downtown Berkeley. It has pretty authentic Italian/French style Brunch. Limited indoor seats and some outdoor seats available. Very chill environment. Recommend dishes: Nutella Crepe, Bread Pudding, </p>
+    		 </div>
+    		</div>
+    	</div>
+    </div>
+    <div class='modal' id='modalr5' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r5' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Eureka</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f5.jpg">
+    		 <div class='description' id='5'>
+    		 	<h3>Address:</h3><p>2068 Center St</br>Berkeley, CA 94704</br>b/t Milvia St & Shattuck Ave</br>Downtown Berkeley</p>
+    		 	<h3>Phone:</h3><p>(510) 809-8282</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/eureka-berkeley-3?osq=eureka</p>
+    		 	<h3>Review:</h3><p> Located in Downtown Berkeley. American style food. Very nice environment with reasonable price range. Dynamic interrior and passionate servers. Good for big groups. They also have special menus with cheaper items during happy hours. Recommeend dishes: Truffle Cheese Fries, Fried Cauli Flower, Cowboy Burger (for meat-lovers).   </p>
+    		 </div>
+    		</div>
+    	</div>
+    </div>
+
+    <div class='modal' id='modalr6' >
+    	<div class='modal-content'>
+    		 <span class="close" id='r6' onclick="closeModal(this.id)" >&times;</span>
+    		 <h1 id='modal-title'>Kiraku</h1>
+    		 <div class="sub-content">
+    		 <img class='f'src="assets/img/f6.jpg">
+    		 <div class='description' id='5'>
+    		 	<h3>Address:</h3>2566B Telegraph Ave</br>Berkeley, CA 94704</br>b/t Blake St & Parker St</p>
+    		 	<h3>Phone:</h3><p>(510) 848-2758</p>
+    		 	<h3>Yelp:</h3><p>https://www.yelp.com/biz/kiraku-berkeley?osq=kiraku</p>
+    		 	<h3>Review:</h3><p>Located in the South of Berkeley Campus. High-quality Japanese Dishes- probably one of the best in Berkeley, but rather expensive. Portions are pretty small. Very limited seats -not good for big groups. They have really good tapas and meat dishes.Recommend dishes: roasted beef tongue, fried corn, sashimi. </p>
+    		 </div>
+    		</div>
+    	</div>
+    </div>
+
+    </div>
+   <!--*Homemade page*/-->
+    <div class='homemade'>
+    <div id='homemade-title'><h2>Homemade</h2></div>
+    <div id='homemade-content'>
+    	<h2>Under Construction XD</h2>
+    	</div>
+    </div>
+ <!--*Contact page*/-->
+    <div class='contact'>
+    <div id='contact-title'><h2>Contact</h2></div>
+    <div id='contact-content'>
+	    <div class='icon'><img class='i'src="assets/img/fb.png"><h2>Sharon Hsia</h2></div>
+	    <div class='icon''><img class='i'src="assets/img/insta.png"><h2>hsharonnn</h2></div>
+	    <div class='icon'><img class='i'src="assets/img/gmail.png"><h2>sharonhsia@berkeley.edu</h2></div>
+    	</div>
+    </div>
+
+
+</body>
