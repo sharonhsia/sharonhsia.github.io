@@ -153,36 +153,36 @@ text-decoration: underline;
 }
 #img-1{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 
 }
 #img-2{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 
 }
 #img-3{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 }
 #img-4{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 
 }
 #img-5{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 
 }
 #img-6{
 	width:500px;
-	height: 320px;
+	height: 350px;
 	opacity: 0.8;
 }
 #shape-1{
@@ -295,30 +295,30 @@ text-decoration: underline;
 
 }
 .r #r1{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 
 }
 .r #r2{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 
 }
 .r #r3{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 }
 .r #r4{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 }
 .r #r5{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 }
 .r #r6{
-	width:24vw;
-	height:42vh;
+	width:500px;
+	height:350px;
 }
 #restaurant-filter{
 	display: flex;
@@ -392,8 +392,8 @@ text-decoration: underline;
 	justify-content: space-around;
 }
 .f{
-	width:28vw;
-	height:46vh;
+	width:500px;
+	height:350px;
 	margin-left: 50px;
 	margin-top: 10px;
 }
