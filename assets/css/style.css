@@ -46,7 +46,7 @@ html,body{
 	}
 
 }
- @media only screen and (min-width : 1224px) {
+ @media only screen and (min-width : 1224px) and (-webkit-min-device-pixel-ratio: 1) {
 
 #head-1{
  color:#F5B9B9;
@@ -466,7 +466,7 @@ text-decoration: underline;
 
 
 /******************************************************************************************************/
- @media only screen and  (max-width : 480px) {
+ @media only screen and  (max-width : 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
 #head-1{
  color:#F5B9B9;
