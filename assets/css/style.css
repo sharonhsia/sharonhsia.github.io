@@ -46,7 +46,7 @@ html,body{
 	}
 
 }
- @media only screen and (min-width : 1000px) and (-webkit-min-device-pixel-ratio: 1) {
+ @media only screen and (min-width : 1500px) and (-webkit-min-device-pixel-ratio: 1) {
 
 #head-1{
  color:#F5B9B9;
@@ -465,8 +465,8 @@ text-decoration: underline;
 }
 
 
-/******************************************************************************************************/
- @media only screen and  (max-width : 480px) and (-webkit-min-device-pixel-ratio: 2) {
+/******************************************************************************************************
+ @media only screen and  (min-width : 320px) and (-webkit-min-device-pixel-ratio: 2) {
 
 #head-1{
  color:#F5B9B9;
@@ -655,7 +655,7 @@ text-decoration: underline;
     animation-fill-mode: forwards;
 }
 
-/*About Page*/
+/*About Page
 #about-title{
 	font-size:50pt;
 	color: white;
@@ -684,7 +684,7 @@ text-decoration: underline;
 
 
 }
-/*Restaurant Page*/
+/*Restaurant Page
 #restaurant-title{
 	font-size:50pt;
 	text-align: center;
@@ -830,7 +830,7 @@ text-decoration: underline;
 .close:hover{
     cursor: pointer;
 }
-/*Homemade Page*/
+/*Homemade Page
 #homemade-title{
 	font-size:50pt;
 	color:white;
@@ -852,7 +852,7 @@ text-decoration: underline;
  	text-align: center;
  	font-size: 40pt;
  }
- /*contact Page*/
+ /*contact Page
 #contact-title{
 	font-size:50pt;
 
@@ -887,3 +887,4 @@ text-decoration: underline;
  }
 
 }
+*/
