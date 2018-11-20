@@ -155,35 +155,38 @@ text-decoration: underline;
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
+	margin-right: 20px;
 
 }
 #img-2{
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
-
+	margin-right: 20px;
 }
 #img-3{
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
+	margin-right: 20px;
 }
 #img-4{
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
-
+	margin-right: 20px;
 }
 #img-5{
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
-
+	margin-right: 20px;
 }
 #img-6{
 	width:500px;
 	height: 350px;
 	opacity: 0.8;
+	margin-right: 20px;	
 }
 #shape-1{
 	border-style: solid;
@@ -371,7 +374,7 @@ text-decoration: underline;
 }
 .modal-content{
 	width:80%;
-	height: 85%;
+	height: 50%;
 	margin:auto;
 	background-color:#B2AFAF;
 }
